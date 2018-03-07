@@ -1,0 +1,170 @@
+
+body{
+  background-color: black;
+  opacity: 0.9;
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  font-size: 22px;
+  text-align: center;
+
+}
+
+a{
+  color: seashell;
+  font-weight: bold;
+}
+
+h2 h3 h4{
+  margin: 0;
+  padding: 10px;
+
+}
+/*header*/
+header{
+  background-color: black;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;;
+  flex-grow: 1;
+  padding-left: 10px;
+  height: 50px;
+}
+
+.logo img{
+  height: 50px;
+}
+/*content*/
+.content{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/*mission*/
+
+#mission{
+  display: flex;
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+
+}
+.description{
+  display: inline-block;
+  align-content: center;
+}
+.mission-image-content .description{
+  background-image: url('D:/Users/galetona/Documents/Gaby/Projects/tea_cozy/resource/img-mission-background.jpg');
+  height: 700px;
+  width: 1200px;
+  flex-grow: 2;
+  flex-shrink: 1;
+  flex-basis: 150px;
+  padding-top: 70px;
+}
+.box{
+  background-color: black;
+  color:white;
+  margin-top: 265px;
+
+}
+/*Tea of the month*/
+.photo img{
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  display: block;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.photo{
+  padding: 5px;
+
+}
+#teas{
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+  color: white;
+}
+.photo span{
+  padding: 5px;
+  font-weight: bold;
+  text-align: center
+  display: block;
+}
+
+/*location*/
+#location{
+    padding-top: 70px;
+}
+
+#location .shops-boxes{
+  background-image: url('D:/Users/galetona/Documents/Gaby/Projects/tea_cozy/resource/img-locations-background.jpg');
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 1100px;
+
+}
+.shops-boxes{
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  margin: 0;
+  width: 1100px;
+  color: white;
+  align-items: center;
+}
+.shops{
+  background-color: black;
+  opacity: 1.0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 280px;
+  margin: 5px 20px;
+  width: 100px;
+  height: 300px;
+}
+
+.shops-boxes .shops{
+  padding-top: 10px;
+
+}
+/*contat*/
+#contact{
+  color: white;
+}
+
+footer{
+  color: white;
+  text-align: left;
+}
